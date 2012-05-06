@@ -24,6 +24,7 @@ Executable socketeer-client
     Main-is:            Network/Socketeer/Client/main.hs
     Hs-Source-Dirs:     src/
     Build-Depends:      base
+                      , conduit >= 0.4.1.1
                       , network-conduit >= 0.4.0
                       , hspec >= 1.0.0.1
 
@@ -32,5 +33,6 @@ Executable socketeer-server
     Main-is:            Network/Socketeer/Server/main.hs
     Hs-Source-Dirs:     src/
     Build-Depends:      base
+                      , conduit >= 0.4.1.1
                       , network-conduit >= 0.4.0
                       , hspec >= 1.0.0.1
