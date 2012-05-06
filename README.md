@@ -1,3 +1,8 @@
+# What?
+
+Simple socket client (and server) framework for Reaktor code camp. Very
+hush-hush.
+
 # Setup
 
     cabal configure
